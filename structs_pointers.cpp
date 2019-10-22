@@ -43,7 +43,7 @@ void update_student( student *s ){
 }
 
 void delete_student( student *s  ){
-   cout << "- delete student -" << endl;
+    cout << "- delete student -" << endl;
     s -> no = 0;
     s -> name = " this student does not exist. ";
 }
