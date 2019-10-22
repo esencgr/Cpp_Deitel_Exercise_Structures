@@ -43,5 +43,6 @@ int main(){
     p1.gender = male;
     p1.day = monday;
     cout << "\nage : " << p1.age << "\nname : " << p1.name  << "\ngender : " << p1.gender << "\nday : " << p1.day << endl;
-  return 0;
+
+    return 0;
 }
