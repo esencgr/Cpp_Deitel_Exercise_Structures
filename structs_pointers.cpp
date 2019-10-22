@@ -49,6 +49,7 @@ void delete_student( student *s  ){
 }
 
 int main(){
+
     student s1;
 
     create_student( &s1 );
