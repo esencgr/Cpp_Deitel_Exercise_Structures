@@ -16,7 +16,7 @@ typedef enum{
 } gen;
 
 typedef enum{
-    sunday,monday,thursday,wednesday,tuesday,friday, saturday
+    sunday,monday,thursday,wednesday,tuesday,friday,saturday
 } days;
 
 struct person{
