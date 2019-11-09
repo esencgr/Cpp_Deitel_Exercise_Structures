@@ -12,7 +12,7 @@ using namespace std;
 typedef struct{
     unsigned side : 4;    // side stores between 0 and 12 value. So side must define 4 bit (as a 0 and 15 value)
     unsigned set : 2;     // set stores between 0 and 3 value. So side must define 2 bit (as a 0 and 3 value)
-    unsigned color : 1;   // color stores between 0 and 1 value. So side must define 4 bit (as a 0 and 15 value)
+    unsigned color : 1;   // color stores between 0 and 1 value. So side must define 4 bit (as a 0 and 1 value)
 }card;
 
 void create_deck( card *const );
