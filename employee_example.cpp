@@ -52,15 +52,15 @@ int main(){
     EmployeePtr emp = { 12, "MRB", "RD" };
     EmployeePtr *employee_ptr = &emp;
     Adress adr = { "IZMIR", 5 };
-    employee_ptr->adress = &adr;            //  employee_ptr->adress = &adr
+    employee_ptr->adress = &adr;                            // emp.adress = &adr
 
     cout << employee_ptr->adress->city << endl;
     cout << employee_ptr->adress->no << endl;
 
-    employee_ptr->adress->city = "ISTANBUL";
+    employee_ptr->adress->city = "ISTANBUL";                // emp.adress->city = &adr
 
-    show_ptr( employee_ptr );
-    cout << "id in main : " << employee_ptr->id << endl;
+    show_ptr( employee_ptr );                               // show( &emp )
+    cout << "id in main : " << employee_ptr->id << endl;    // emp.id
 
     return 0;
 }
