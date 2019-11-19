@@ -14,7 +14,7 @@ int main(){
                                  "aug", "sep", "oct", "nov", "dec" };
 
 
-    for (months month = OCAK; month <= ARALIK; month++ ){
+    for ( int month = OCAK; month <= ARALIK; month++ ){
         cout << month << "  " << month_name [ month ] << endl;
     }
 
