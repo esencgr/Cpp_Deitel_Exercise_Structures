@@ -1,33 +1,22 @@
 #include <iostream>
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 
 using namespace std;
 
-struct student{
-    int no;
-    string name;
-    char gender;
-};
-
-typedef enum{
-    male,female
-} gen;
-
-typedef enum{
-    sunday,monday,thursday,wednesday,tuesday,friday,saturday
-} days;
-
-struct person{
-    int age;
-    string name;
-    char gender;  //gen gender
-    days day;
-};
+enum months{ OCAK = 1, SUBAT, MART, NISAN, MAYIS, HAZIRAN,
+             TEMMUZ, AGUSTOS, EYLUL, EKIM, KASIM, ARALIK };
 
 int main(){
 
+    enum months month;
+    string month_name[] = { " ", "jan", "feb", "mar", "apr", "may", "jun", "jul",
+                                 "aug", "sep", "oct", "nov", "dec" };
+
+
+    for ( months month = OCAK; month <= ARALIK; month++ ){
+        cout << month << "  " << month_name [ month ] << endl;
+    }
 
     return 0;
 }
