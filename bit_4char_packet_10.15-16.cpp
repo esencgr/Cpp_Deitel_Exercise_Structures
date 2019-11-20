@@ -1,7 +1,6 @@
 /*
   EXAMPLE : 10.13 -->
             If your system uses 4-byte integers, rewrite the program of Exercise 16.12 to pack 4 characters.
-
   EXAMPLE : 10.14 -->
             If your system uses 4-byte integers, rewrite the function unpackCharacters of Exercise 16.13 to
             unpack 4 characters. Create the masks you need to unpack the 4 characters by left shifting the
@@ -44,9 +43,6 @@ int main(){
     display_bits( 255 << 8 );
     cout << "255       : ";
     display_bits( 255 );
-
-
-
 
     unpacket( &a, &b, &c, &d, pack );
     cout << "\n\nThe unpacked characters are \'" << a << "\' and \'" << b << '\''
