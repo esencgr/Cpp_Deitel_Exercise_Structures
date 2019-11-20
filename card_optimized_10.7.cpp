@@ -1,5 +1,9 @@
-/* Modify the program of Fig. 16.14 to shuffle the cards using a high-performance shuffle as shown in Fig. 16.2.
-   Print the resulting deck in two column format as in Fig. 16.3. Precede each card with its color.*/
+/*
+  EXAMPLE : 10.7 -->
+            Modify the program of Fig. 16.14 to shuffle the cards using a high-performance shuffle as shown in Fig. 16.2.
+            Print the resulting deck in two column format as in Fig. 16.3.
+            Precede each card with its color.
+*/
 // In this example card distribution algorithm is optimized with memory allocated manage.
 #include <iostream>
 #include <stdlib.h>
