@@ -23,6 +23,7 @@ int main(){
     cout << "char   -> " << sizeof( char ) << endl;
     cout << "string -> " << sizeof( string ) << endl;
     cout << "struct -> " << sizeof( structer )<< endl;
+    cout << "unsign -> " << sizeof( unsigned int ) << endl;
 
     // new - delete - nullptr for variables
 

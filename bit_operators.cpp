@@ -3,7 +3,6 @@
 using namespace std;
 
 void bits( unsigned value ){
-
     unsigned mask = 1 << 31;              // 10000000 00000000 00000000 00000000 -- 32 bit
     cout << value << " = ";
     for (unsigned c = 1; c <= 32; c++){
@@ -12,7 +11,6 @@ void bits( unsigned value ){
         if (c % 8 == 0)                       // each 8 bits uncouple.
             putchar( ' ' );
     }
-
     cout << endl;
 }
 
