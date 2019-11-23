@@ -13,7 +13,6 @@ int main(){
     string month_name[] = { " ", "jan", "feb", "mar", "apr", "may", "jun", "jul",
                                  "aug", "sep", "oct", "nov", "dec" };
 
-
     for ( int month = OCAK; month <= ARALIK; month++ ){
         cout << month << "  " << month_name [ month ] << endl;
     }
