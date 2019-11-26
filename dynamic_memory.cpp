@@ -28,14 +28,13 @@ int main(){
     // new - delete - nullptr for variables
 
     int *a = new int, *nullptr;         //  allocated 4 bytes memory from RAM
-    *a = 100;
-    cout << *a << endl;
-
-    delete a;                           //  variable cleared
-    a = nullptr;     //  a = 0;
-    *a = 200;
-    cout << *a << endl;
-
+    // *a = 100;
+    // cout << *a << endl;
+    //
+    // delete a;                           //  variable cleared
+    // a = nullptr;     //  a = 0;
+    // *a = 200;
+    // cout << *a << endl;
 
     // new - delete - nullptr for array
 
@@ -47,7 +46,7 @@ int main(){
     *( array + 2 ) = 30;
 
     for (int i = 0; i < size; i++)
-        cout << *( array + i ) << endl;
+        cout << array[ i ] << endl;
 
     delete [ ] array;                   //  array cleared
     array = nullptr;
