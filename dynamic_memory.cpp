@@ -27,7 +27,7 @@ int main(){
 
     // new - delete - nullptr for variables
 
-    int *a = new int, *nullptr;         //  allocated 4 bytes memory from RAM
+    int *a = new int;         //  allocated 4 bytes memory from RAM
     // *a = 100;
     // cout << *a << endl;
     //
