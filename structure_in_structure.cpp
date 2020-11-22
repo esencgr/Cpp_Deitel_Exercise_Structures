@@ -33,7 +33,15 @@ struct new_part{
     categories *products;
 };
 
-void decrease( parts *, int  );
+void decrease( parts *part, int decrease ){
+    cout << "\nENTER THE NUMBER OF PRODUCTS SOLD = ";
+    cin >> decrease ;
+    part -> products.number_of_products -= decrease;
+    part -> total_product -= decrease;
+
+    cout << "NEW TOTAL = " <<  part -> total_product << " ---- "
+         << "NEW CATEGORIES = " << part -> products.number_of_products << endl << endl;
+}
 
 int main(){
 
@@ -70,12 +78,3 @@ int main(){
     return 0;
 }
 
-void decrease( parts *part, int decrease ){
-    cout << "\nENTER THE NUMBER OF PRODUCTS SOLD = ";
-    cin >> decrease ;
-    part -> products.number_of_products -= decrease;
-    part -> total_product -= decrease;
-
-    cout << "NEW TOTAL = " <<  part -> total_product << " ---- "
-         << "NEW CATEGORIES = " << part -> products.number_of_products << endl << endl;
-}

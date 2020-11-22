@@ -15,8 +15,9 @@ int main(){
     s1.no = 123;
     s1.adr.city = "Manisa";
     s1.adr.street = "ATATURK";
+    
     printf("%s %d %s %s", s1.name, s1.no, s1.adr.city, s1.adr.street );
+    
     printf("\n");
     return 0;
-
 }
