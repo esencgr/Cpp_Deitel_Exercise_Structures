@@ -1,5 +1,4 @@
 // In this example card distribution algorithm is optimized with memory allocated manage.
-#include <iostream>
 #include <stdio.h>
 using namespace std;
 
